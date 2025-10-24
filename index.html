@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenLiveChatPro</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+</head>
+<body>
+<header>
+  <h1>OpenLiveChatPro</h1>
+</header>
+<main id="app">
+  <div id="login-screen">
+    <input type="text" id="username" placeholder="ادخل اسم المستخدم">
+    <button onclick="login()">تسجيل الدخول</button>
+  </div>
+  <div id="main-screen" style="display:none;">
+    <section id="profile"></section>
+    <section id="rooms"></section>
+    <section id="friends"></section>
+    <section id="games"></section>
+  </div>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
